@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="department.css">
+</head>
+<body>
+
+
+   <h1 style="color: black;">STAFF LEAVE </h1>
+   <form action="#" id="formSubmission" method="get">
+   <label   >
+   <div  class="select">
+        <select   id="name" >
+       
+            <option id="name" >NAME</option>
+            <option>DR B P PATIL</option>
+            <option>DR G R PATIL </option>
+            <option>DR P B KARANDIKAR </option>
+            <option>DR SHRADDHA OZA </option>
+            <option>DR RENKU BHANDARI </option>
+            <option>DR SUSHMA PATIL </option>
+            <option>DR R P SURYAWANSHI </option>
+            <option>MR J B JAWALE </option>
+            <option>MR VIJAY KUMAR KAPRA </option>
+            <option>DR AVINASH PATIL</option>
+            <option>MRS PREETI WARRIER </option>
+            <option>MR GIRISH KAPSE </option>
+            <option>MS SHILPA PAWAR </option>
+            <option>MS SNEHAL MARATHE</option>
+            <option>MS DHANSHREE PATIL</option>
+            <option>MR PRAGATI RANA</option>
+            <option>MR SANDEEP BIDWAI</option>
+            <option>MS MAHIMA JAIN</option>
+            <option>MR ASHISH DUDHALE</option>
+            <option>DR NIDHI YADAV</option>
+            <option>MR SUKUMAR CHOUGULE</option>
+            <option>MRS RAJASHREE S CHALLAMRAO</option>
+            <option>MRS SUJATA</option>
+            <option>MR ASHOK KATOLE</option>
+            <option>MR NITESH SUKHADEVE</option>
+            <option>MS MOHINI SHENDGE</option>
+            <option>MS VIDYA JADHAV</option>
+
+
+
+            
+
+          </select>
+          </label>
+        </div>
+
+    <div  class="select">
+        <label  >
+        <select  class="select"  >
+            <option id="age" >DEGNISATION </option>
+            <option>PROF </option>
+            <option>TECH ASST</option>
+            <option>LAB ASST</option>
+            <option>LAB ATTD</option>
+            <option>PROF & HOD</option>
+            <option>PRINCIPAL</option>
+            <option>PROF & DEAN R & D</option>
+            <option>ASSOC PROF </option>
+
+          </select>
+        </label>
+    </div>
+
+
+    <div   class="select">
+     
+           <label >
+          <select class="select"  id="state" >
+            <option id="state" >LEAVE </option>
+            <option>CL ( Causal Leave ) - 1/2 day and 1 day </option>
+            <option>SL ( Seek Leave )  - 1/2 day and 1 dayL</option>
+            <option>EL ( Earned Leave )</option>
+            <option>C-OFF ( Compensatory Off )</option>
+            <option>PL ( Priveleged Leave )</option>
+            <option>PHD LEAVE </option>
+
+            
+          </label>
+          </select>
+    </div>
+
+    <div   class="select">
+       <label >
+        <select  class="select" >
+          <option id="time" >TIME</option>
+          <option>FULL TIME</option>
+          <option>HALF TIME</option>
+          
+
+          
+        </label>
+        </select>
+    </div>
+
+    
+        
+</div>
+
+<button type="submit" class="button-7">submit</button>
+</form>
+
+<div>
+    
+    <table id="data" class="data">
+        <ul id="data">
+         
+          <li >Name</li>
+          <li>DEGESINATION </li>
+          <li>LEAVE </li>
+          <li>TIME</li>
+          
+        </ul>
+       </table>
+   
+   
+      
+             
+         </thead>
+         <tbody>
+   
+         </tbody>
+     </table>
+</div>
+<a class="button-7" onclick="Export2Doc('data');">Export as .doc</a>
+<script src="department.js"></script>
+
+</body>
+</html>
